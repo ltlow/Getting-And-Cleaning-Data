@@ -13,11 +13,14 @@ This file describes the variables, the data, and the work performed for cleaning
 
     The run_analysis.R script is written to perform the following tasks for the cleaning of the data:
        
-1. Read X_train.txt, y_train.txt and subject_train.txt from the "./UCI HAR Dataset/train" folder and store them in trainData, trainLabel and trainSubject variables respectively.
+1. Read X_train.txt, y_train.txt and subject_train.txt from the "./UCI HAR Dataset/train" folder and store them in
+trainData, trainLabel and trainSubject variables respectively.
 
-2. Read X_test.txt, y_test.txt and subject_test.txt from the "./UCI HAR Dataset/test" folder and store them in testData, testLabel and testSubject variables respectively.
+2. Read X_test.txt, y_test.txt and subject_test.txt from the "./UCI HAR Dataset/test" folder and store them in
+testData, testLabel and testSubject variables respectively.
 
-3. Join trainData and testData together into a dataframe called joinedData; trainLabel and testLabel into data frame, joinedLabel; trainSubject and testSubject into data frame, joinedSubject.
+3. Join trainData and testData together into a dataframe called joinedData; trainLabel and testLabel into data frame,
+joinedLabel; trainSubject and testSubject into data frame, joinedSubject.
        
 4. Combine all the three data frames - joinedSubject, joinedLabel and joinedData into one dataset called mergedData.
  	
@@ -31,9 +34,11 @@ This file describes the variables, the data, and the work performed for cleaning
 	
 9. Generate first 6 rows of extractedData for viewing/checking.
  
-10.Read the activity_labels.txt file from the "./UCI HAR Dataset" folder and store the data in a variable called activity.
+10.Read the activity_labels.txt file from the "./UCI HAR Dataset" folder and store the data in a variable called
+activity.
         
-11.Clean the activity names in the second column of activity.  This includes making all the names to lower cases and if the name has an underscore between letters, replace it with empty space.
+11.Clean the activity names in the second column of activity.  This includes making all the names to lower cases and
+if the name has an underscore between letters, replace it with empty space.
         
 12.Change the values of joinedLabel according to the activity data frame.
 
@@ -43,7 +48,8 @@ This file describes the variables, the data, and the work performed for cleaning
 
 15.Label the name of the columns in the data frame, extractedData.
 
-16.Combine the joinedSubject, joinedLabel and extractedData by column to get the cleaned dataset and store as firstData. 
+16.Combine the joinedSubject, joinedLabel and extractedData by column to get the cleaned dataset and store as 
+firstData. 
 
 17.Generate first 6 rows of firstData to show labels changed and the combination of data.
 
