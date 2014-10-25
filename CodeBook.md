@@ -34,28 +34,26 @@ joinedLabel; trainSubject and testSubject into data frame, joinedSubject.
 	
 9. Generate first 6 rows of extractedData for viewing/checking.
  
-10.Read the activity_labels.txt file from the "./UCI HAR Dataset" folder and store the data in a variable called
-   activity.
+10.	Read the activity_labels.txt file from the "./UCI HAR Dataset" folder and store the data in a variable called
+   	activity.
         
-11.Clean the activity names in the second column of activity.  This includes making all the names to lower cases and
-   if the name has an underscore between letters, replace it with empty space.
+11.	Clean the activity names in the second column of activity.  This includes making all the names to lower cases 	and if the name has an underscore between letters, replace it with empty space.
         
-12.Change the values of joinedLabel according to the activity data frame.
+12.	Change the values of joinedLabel according to the activity data frame.
 
-13.Generate first 6 rows of joinedLabel to show changes made.
+13.	Generate first 6 rows of joinedLabel to show changes made.
 
-14.Name the first two columns, "Subject" and "Activity". 
+14.	Name the first two columns, "Subject" and "Activity". 
 
-15.Label the name of the columns in the data frame, extractedData.
+15.	Label the name of the columns in the data frame, extractedData.
 
-16.Combine the joinedSubject, joinedLabel and extractedData by column to get the cleaned dataset and store as 
-   firstData. 
+16.	Combine the joinedSubject, joinedLabel and extractedData by column to get the cleaned dataset and store as 
+   	firstData. 
 
-17.Generate first 6 rows of firstData to show labels changed and the combination of data.
+17.	Generate first 6 rows of firstData to show labels changed and the combination of data.
 
-18.Write the firstData out to "first_dataset.txt" file in current working directory.
+18.	Write the firstData out to "first_dataset.txt" file in current working directory.
 
-19.Generate a second independent tidy data set with the average of each measurement for each activity and each    
-   subject, then store as secondData.
+19.	Generate a second independent tidy data set with the average of each measurement for each activity and each   	subject, then store as secondData.
 
-20.Write the secondData out to "tidy_dataset.txt" file in current working directory.
+20.	Write the secondData out to "tidy_dataset.txt" file in current working directory.
